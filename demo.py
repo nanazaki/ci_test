@@ -3,7 +3,7 @@ def demofunc(num):
     print('Hello world 1')
   else:
     print('Hello world 0')
-    return num
+  return num
 
 #if __name__ == '__main__':
 #  demofunc(1)
