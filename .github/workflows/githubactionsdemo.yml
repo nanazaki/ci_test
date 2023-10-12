@@ -9,11 +9,3 @@ jobs:
     container: node:14.16
     steps:
       - run: echo "Hello, World!"
-
-jobs:
-  build:
-    name: Greeting
-    runs-on: ubuntu-latest
-    container: node:14.16
-    steps:
-      - run: echo "Hello, World!"
