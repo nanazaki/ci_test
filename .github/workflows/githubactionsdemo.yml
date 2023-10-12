@@ -2,7 +2,7 @@ name: Hello, World!
 
 on: push
  
-jobs: job1
+jobs:
   build:
     name: Greeting
     runs-on: ubuntu-latest
@@ -10,7 +10,7 @@ jobs: job1
     steps:
       - run: echo "Hello, World!"
 
-jobs: job2
+jobs:
   build:
     name: Greeting
     runs-on: ubuntu-latest
